@@ -52,7 +52,6 @@ function rotacionar() {
         scrollTrigger: {
             start: "0% 0%",
             end: "50% 50%",
-            markers: true,
             scrub: 2
         }
     })
@@ -62,7 +61,6 @@ function rotacionar() {
         scrollTrigger: {
             start: "0% 0%",
             end: "50% 50%",
-            markers: true,
             scrub: 3
         }
     })
