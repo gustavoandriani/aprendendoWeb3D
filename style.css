@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "minecrafter";
+    src: url("assets/minecrafter/Minecrafter.Reg.ttf");
+    font-weight: 400;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.divPai {
+    width: 100vw;
+    background-image: url("assets/background.png");
+    background-size: contain;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h1, h2 {
+    font-family: "minecrafter";
+    font-weight: 400;
+}
+
+.div3D {
+    width: 100vw;
+    position: absolute;
+    height: 200vh;
+
+    .abelha {
+        position: sticky;
+        top: 0;
+    }
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.mensagem {
+    background-color: rgb(85, 85, 85);
+    padding: 1vw 1.2vw;
+    border: 0.3vw solid black;
+    box-shadow: 3px 3px 0px rgba(255, 255, 255, 0.357) inset;
+}
+
+.sec1 {
+    h1 {
+        width: min-content;
+        font-size: 6vw;
+        color: white;
+        -webkit-text-stroke: .3vw;
+        -webkit-text-stroke-color: black;
+        margin: 0 auto;
+    }
+}
